@@ -19,7 +19,7 @@ mvn package
 4. Release
 
 Setup maven for github connection. In .m2/settings.xml
-```xml
+```
 <settings>
 
     <servers>
@@ -33,7 +33,7 @@ Setup maven for github connection. In .m2/settings.xml
 ```
 
 Update pom.xml with scm configuration
-```xml
+```
   <scm>
       <connection>scm:git:git://git@github.com/LeoXS/maventest.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/LeoXS/maventest.git</developerConnection>
