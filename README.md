@@ -16,7 +16,7 @@ mvn test
 mvn package
 ```
 
-4. Release
+4. Release Preparation
 
 Setup maven for github connection. In .m2/settings.xml
 ```xml
@@ -46,3 +46,5 @@ Update version number and push
 ```sh
 mvn release:prepare
 ```
+
+5. TODO Perform Release
